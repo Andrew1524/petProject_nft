@@ -1,0 +1,267 @@
+body {
+   /* background: url(../img/bg/Bg.jpg) center center no-repeat; */
+   background: rgba(34, 3, 66, 0.95);
+   backdrop-filter: blur(110.3058px);
+   
+}
+h1,h2,h3,h5,h6,p {
+   margin: 0;
+   padding: 0;
+}
+
+.header {
+   margin-bottom: 102px;
+}
+
+.logotype {
+   /* display: flex; */
+ font-family: 'Orbitron';
+ color: #A69DB2;
+
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   font-family: 'Orbitron';
+   color: #A69DB2;
+   width: 35px;
+   height: 26px;
+}
+
+.logo-header {
+   display: inline-block;
+}
+.nft-elem {
+   color: #fff;
+}
+
+.logo-text {
+
+}
+
+.logonft {
+   /* display: inline-block; */
+   /* width: 100%;
+   height: 100%; */
+}
+
+.nft-text {
+   /* display: inline-block; */
+   color: #fff;
+}
+
+.nav {
+   margin-bottom: 105px;
+}
+
+.menu {
+   font-family: 'Orbitron';
+   font-weight: 700;
+   font-size: 20px;
+   background-color: transparent;
+   color: rgba(255, 255, 255, 0.6);
+   border: none;
+}
+.menu:hover {
+   cursor: pointer;
+}
+
+.shopping, .account {
+   background-color: transparent;
+   border: none;
+}
+
+.account:hover {
+   cursor: pointer;
+}
+.shopping:hover {
+   cursor: pointer;
+}
+
+.main {
+
+}
+
+.main-header__title {
+   margin-bottom: 21px;
+   font-family: 'League Spartan';
+   font-weight: 500;
+   font-size: 66px;
+   color: #FFFFFF;
+}
+
+.gradient {
+	color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #FF56F6, #43A5E3);
+}
+
+.main-header__text {
+   font-family: 'Rajdhani';
+   font-weight: 400;
+   font-size: 26px;
+   color: #fff;
+   margin-bottom: 43px;
+}
+
+.main-header__btn {
+   margin-bottom: 68px;
+}
+
+.explore {
+   color: transparent;
+   font-family: 'Orbitron';
+   font-weight: 700;
+   font-size: 20px;
+   border: none;
+   background-color: transparent;
+   -webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #FF56F6, #43A5E3);
+   cursor: pointer;
+   transition: all 1s ease;
+}
+
+.explore:hover {
+   background-image: linear-gradient(to right, #43A5E3,#FF56F6);
+   color: #fff;
+}
+
+.create {
+   color: transparent;
+   font-family: 'Orbitron';
+   font-weight: 700;
+   font-size: 20px;
+   border: none;
+   background-color: transparent;
+   -webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #43A5E3, #FF56F6);
+   cursor: pointer;
+}
+
+.main-header__information {
+   display: flex;
+}
+
+
+.num {
+   font-family: 'Aldrich';
+   font-weight: 400;
+   font-size: 40px;
+   color: #fff;
+}
+
+.name {
+   font-family: 'Alethia Next';
+   font-weight: 400;
+   font-size: 18px;
+   color: #fff;
+}
+
+.main-header__info {
+   margin-right: 55px;
+}
+
+/* .main-header__info::after {
+   content: '';
+   display: block;
+   height: 63px;
+   background: url(../img/header/Line.png) no-repeat;
+} */
+
+.hero {
+   /* background: url(../img/header/main-img.svg) no-repeat center center;
+   width: 301px;
+   height: 377px; */
+   /* z-index: 0; */
+   /* background: linear-gradient(-45deg, transparent 15px, 0); */
+}
+
+.hero-account__bg {
+   background: url(../img/header/main-img.svg) no-repeat center center;
+   width: 301px;
+   height: 377px;
+}
+
+.wrapper-timer::before {
+   content: '';
+   position: fixed;
+   background: rgba(255, 255, 255, 0.3);
+   filter: blur(4px);
+   
+}
+
+.wrapper-timer {
+   padding-top: 27px;
+}
+
+.hero-account__title {
+   font-family: 'Rajdhani';
+   font-weight: 700;
+   color: #fff;
+}
+
+.hero-account__img {
+   display: flex;
+   align-items: center;
+}
+
+.persone {
+   display: inline-block;
+   font-family: 'Rajdhani';
+   font-weight: 600;
+   color: #fff;
+}
+
+.hero-account__title {
+   padding: 10px 5px 10px 0;
+}
+
+.persone {
+   padding: 15px 5px 15px 5px;
+}
+
+.hero-account__text {
+   padding: 15px 0 15px 0px;
+   font-family: 'Rajdhani';
+   font-weight: 600;
+   font-size: 11px;
+   color: #fff;
+}
+
+.hero-account__price {
+   display: flex;
+   font-family: 'Rajdhani';
+   font-weight: 400;
+   font-size: 11px;
+   color: #C5C2CF;
+}
+
+.icon {
+   width: 13px;
+   height: 13px;
+}
+
+.hero-account__auction {
+   padding: 18px 5px 10px 0;
+   font-family: 'Rajdhani';
+   font-weight: 500;
+   color: #EDEAEF;
+   font-size: 10px;
+}
+
+.hero-account__countdown {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-account__time {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
