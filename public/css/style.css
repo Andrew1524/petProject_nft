@@ -173,13 +173,13 @@ h1,h2,h3,h5,h6,p {
    background: url(../img/header/Line.png) no-repeat;
 } */
 
-.hero {
-   /* background: url(../img/header/main-img.svg) no-repeat center center;
+/* .hero {
+   background: url(../img/header/main-img.svg) no-repeat center center;
    width: 301px;
-   height: 377px; */
-   /* z-index: 0; */
-   /* background: linear-gradient(-45deg, transparent 15px, 0); */
-}
+   height: 377px;
+   z-index: 0;
+   background: linear-gradient(-45deg, transparent 15px, 0);
+} */
 
 .hero-account__bg {
    background: url(../img/header/main-img.svg) no-repeat center center;
@@ -365,4 +365,8 @@ h1,h2,h3,h5,h6,p {
 
 .prtn-img {
    height: 40px;
+}
+
+.top-nft {
+   background: #fff;
 }
